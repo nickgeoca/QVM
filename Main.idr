@@ -115,7 +115,6 @@ dat x = DATA x
 
 --------------------------------------------------
 --                Memory
-
 simpleAsm : Assembly
 simpleAsm
     = ASM (ADD accumR accumR incR)
@@ -136,9 +135,3 @@ main = do printLn "Registers before: "
           printLn "Registers after: "
           printRegisters $ evaluator simpleLoop
           printLn ""
-
--- GOALS
---  1 Better for functional (formal verification built-in)
---  2 Better computation verification (chunkable for verification)
---  3 Establish consensus (may use ethereum for main chain)
---- 4 Mining is computation verification
