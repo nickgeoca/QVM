@@ -1,0 +1,5 @@
+package qvm
+
+-- sourcedir = ./
+executable = qvm
+main = Main
