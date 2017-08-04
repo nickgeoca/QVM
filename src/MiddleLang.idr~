@@ -1,7 +1,0 @@
-module MiddleLang
-
---------------------------------------------------
---               verifyable chunks
-data Chunk : Type where
-  ||| count, start location
-  FORLOOP : Int -> Int -> Chunk
