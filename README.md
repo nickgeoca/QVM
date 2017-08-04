@@ -6,3 +6,8 @@
  * Better for functional (formal verification built-in)
  * Physical verification - Constrained by physical laws
  * Quantum logic- secure for post quantum
+
+
+Name ideas
+ * QVM
+ * Daedalus

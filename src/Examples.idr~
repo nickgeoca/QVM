@@ -1,0 +1,14 @@
+module Examples
+
+simpleAsm2 : List Instruction
+simpleAsm2 =
+  [ JUMPI boolR 2
+  , dat 983928          -- Contract 
+ADD accumR accumR incR
+  , EQUAL boolR accumR stopR
+  , NOT boolR boolR
+  , JUMPI boolR (-3)
+  ]
+
+etherContract : Memory
+etherContract = MkMemory (MkRegisters 0 1 6 0 0 0) simpleAsm2

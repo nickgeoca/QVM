@@ -1,0 +1,9 @@
+-- GOALS
+--  1 Better for functional (formal verification built-in)
+--  3 Establish consensus (may use ethereum for main chain)
+--  4 Mining is computation verification
+--  5 Constraints: 
+      * Physical verification - Constrained by physical laws
+      * Functional program friendly
+      * Better computation verification (chunkable for verification)
+--  6 Quantum logic- secure for post quantum
